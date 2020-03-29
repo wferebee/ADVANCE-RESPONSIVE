@@ -1,0 +1,179 @@
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.container-fluid-heading{
+  height: 11.7vh;
+  background-color: #CC0033;
+  border-style: solid;
+  border-width: 0 0 4vh 0;
+  border-color: #A00028;
+}
+
+.login-box {
+  position: relative;
+  float: left;
+  width: 12vw;
+  height: 5vh;
+  background-color:#303030;
+  margin: 1.5vh; 
+}
+
+.search-logo {
+  position: absolute;
+  bottom: .5%;
+  right: .5%;
+}
+
+.search-box{
+  position: relative;
+  left: 31%;
+  width: 37.5vw;
+  height: 5vh;
+  background-color:#A00028;
+  top: 1.5vh;
+}
+
+.container-fluid-jumbo {
+  height: 38.2vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-right: 0;
+  background-image: 
+  -webkit-radial-gradient(circle cover, rgba(255, 255, 255, 0), black), /* this was tricky, got it right as much as i could */
+  URL("../images/B&W_bg.jpg");
+  background-size: 100% 850px;
+  background-position-y: 80%;
+}
+
+.sale-text {
+  position: relative;
+  top: 3vh;
+  left: 6vw;
+  width: 33.5vw;
+}
+
+#save-10 {
+  font-size: 8vh;
+  color: white;
+  font-weight: 900;
+}
+
+#middle-text {
+  font-size: 4vh;
+  color: white;
+  font-weight: 300;
+}
+
+#big-textOne {    /* this will be hidden once i get to tablet view and smaller */
+  font-size: 1.9vh;
+  color: white;
+  font-weight: 300;
+
+}
+#big-textTwo {
+  display: none;   /* this is hidden until tablet view */
+}
+
+.oil-pic-containerOne {
+  position: absolute;
+  left: 62vw;
+  bottom: 53.5vh;
+  height: 34vh;
+  min-height: 150px;
+  width: 28vw;
+
+}
+#oil-picTwo {       /* this is hidden until tablet view */
+  display: none;     
+}
+#oil-pic {                  /* this will be hidden once i get to tablet view and smaller */
+  max-height: 100%;
+  height: 100%;
+  max-width: 100%;
+  width:100%;
+  min-height: 50px;
+  min-width: 50px;
+}
+
+.container-fluid-box-container {
+  width: 90vw;
+  position: relative;
+  left: 6vw;
+  bottom: 5vh;
+  background-color: transparent;
+  clear: both;
+}
+
+.colored-boxes {
+  height: 27vh ;
+  width: 27vw; ;
+  position: relative;
+  float: left;
+  border-color: white;
+  border-width: 1.5vh;
+  border-style: solid;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  padding: 8.5vh 0;
+  box-shadow: 5px -8px 25px 9px rgba(0,0,0,0.15); 
+  border-radius: 3px;
+}
+
+#box-one {
+  background-color: #35D3B4;
+}
+
+#box-two {
+  background-color: #1B2191;
+   left: 3vw; 
+}
+
+#box-three {
+  background-color: #D822EE;
+   left: 6vw; 
+}
+#box-four {
+  display: none;
+}
+
+footer{
+  height: 25vh;
+  width: 100vw;
+  background-color: #272727;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-text-container {
+  margin-top: 7vh;
+  text-align: center;
+}
+
+.left-links-container {
+position: relative;
+margin: 0 6vw 0 0;
+text-align: left;
+display: inline-block;  
+}
+
+.right-links-container {
+position: relative;
+margin: 0 0 0 6vw;
+text-align: left;
+display: inline-block;  
+}
+
+.footer-headers {
+  color: white;
+  font-size: 3vh;
+}
+
+.footer-links {
+  color: white;
+  font-size: 1.8vh;
+}
